@@ -1,6 +1,6 @@
 
-public class ElevatorConstants {
-    public enum ElevatorPosition {
+public class IntakeConstants {
+    public enum IntakePosition {
         M1START(0.0),
         M1HOLD(0.0),
         M1ROTATE(0.0),
