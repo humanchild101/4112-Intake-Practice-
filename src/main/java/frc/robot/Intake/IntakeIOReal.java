@@ -2,11 +2,21 @@ package frc.robot.Intake;
 
 import com.ctre.phoenix6.hardware.TalonFX;
 
+import au.grapplerobotics.LaserCan;
+
 public class IntakeIOReal implements IntakeIO{
     public final TalonFX raiserMotor, indexerMotor;
+    public final LaserCan laserCan;
 
 
+    public IntakeIOReal(){
+        raiserMotor = new TalonFX(0);
+        indexerMotor = new TalonFX(1);
+        laserCan = new LaserCan(2);
 
+
+        
+    }
     @Override
     public void resetState() {
         
