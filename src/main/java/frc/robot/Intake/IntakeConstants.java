@@ -8,11 +8,14 @@ public class IntakeConstants{
         Up(-20);
 
         public final double val;
+    
 
         private IntakePositions(double val){
             this.val = val;
         }
+
     }
+    public static final double IntakeMargin = 1.0;
 
     
 

@@ -8,20 +8,21 @@ public interface IntakeIO {
         public boolean indexerConnected = false;
         public double indexerVoltage = 0;
         public double raiserVoltage = 0;
+        public double raiserPosition = 0;
+    }
+
+    public default void setIndexerVoltage(double val){
+
+    }
+    public default void setRaiserVoltage(double val){
+
+    }
+
+    public default void setRaiserClosedLoop(double val){
         
-    }
-
-    public default void setIndexerVoltage(){
 
     }
-    public default void setRaiserVoltage(){
-
-    }
-
-    public default void setRaiserClosedLoop(){
-
-    }
-    public default void setRaiserOpenLoop(){
+    public default void setRaiserOpenLoop(double val){
 
     }
    
